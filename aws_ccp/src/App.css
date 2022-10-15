@@ -135,6 +135,13 @@ h2 {
   align-items:center;
 }
 
+h4 {
+  color: var(--primary-white);
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
 .main {
   padding: 2rem;
 }
@@ -165,9 +172,20 @@ h6 {
 .cloudConcepts {
   background-color: var(--primary-dark);
   padding-bottom: 5rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .about{
   background-color: var(--black);
   padding-bottom: 5rem;
+}
+
+.deploymentModels {
+  padding: 2rem;
+  color: var(--primary-white)
+}
+
+.icon {
+  color: var(--secondary-color);
 }
