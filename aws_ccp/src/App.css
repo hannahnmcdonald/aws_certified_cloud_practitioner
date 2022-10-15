@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+/* IMPORT Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Zen+Maru+Gothic:wght@300&display=swap');
+
+/* SET Font & Background color for entire Body */
+body {
+  font-family: 'Quicksand', sans-serif !important;
+  background-color: var(--primary-dark) !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* ROOT COLOR VARIABLES */
+:root {
+  --primary-white: #ffffff;
+  --secondary-color: #f78b07;
+  --primary-dark: #120937;
+  --background-color: rgb(26, 29, 29);
+  --neutral-color: #29342d;
+  --black: #000000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* NAVBAR */
+
+nav {
+  z-index: 2;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+nav a.nav-link {
+  font-weight: 800;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
   color: white;
+  font-size: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+nav ul li {
+  text-transform: uppercase;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-nav {
+  background-color: (var(--primary-dark));
+}
+
+.navbar-nav > li > a {
+  /* !important overrides bootstrap css for root color variables */
+  color: var(--primary-white) !important;
+  /* Spacing between navbar items */
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  border-top: 0.1875rem solid transparent;
+}
+
+/* Navbar link hover effects */
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+  border-top: 0.1875rem solid var(--primary-white);
+  font-weight: 800;
+}
+
+.navbar-nav > li > a:hover {
+  color: var(--secondary-color) !important;
+  border-top: 0.1875rem solid var(--secondary-color);
+  font-weight: 800;
+}
+
+/* Main */
+
+.logo {
+  width: 270px;
+  height: 200px;
+}
+
+.title {
+  color: var(--primary-white);
+  font-weight: 400;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items:center;
 }

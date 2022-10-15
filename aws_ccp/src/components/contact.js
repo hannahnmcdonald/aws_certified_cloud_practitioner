@@ -1,7 +1,7 @@
 // Import React //
 import React from 'react';
 
-const technology = () => {
+const contact = () => {
     return (
         <div>
            
@@ -9,4 +9,4 @@ const technology = () => {
     )
 }
 
-export default technology
+export default contact
