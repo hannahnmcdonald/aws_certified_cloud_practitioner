@@ -3,8 +3,10 @@ import React from 'react';
 
 const securityAndCompliance = () => {
     return (
-        <div>
-           
+        <div className="securityAndCompliance">
+            <div className="section-title">
+                <h2>Security & Compliance</h2>
+          </div>
         </div>
     )
 }

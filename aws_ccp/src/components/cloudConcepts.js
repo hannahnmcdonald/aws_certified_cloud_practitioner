@@ -3,8 +3,10 @@ import React from 'react';
 
 const cloudConcepts = () => {
     return (
-        <div>
-           
+        <div className="cloudConcepts">
+            <div className="section-title">
+                <h2>Cloud Concepts</h2>
+            </div>    
         </div>
     )
 }
