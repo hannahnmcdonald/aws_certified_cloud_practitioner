@@ -14,11 +14,12 @@ const cloudConcepts = () => {
             </div>    
             <div className="deploymentModels">
             {/* <DiAws className="icon display-4" title="aws_icon"/> */}
-                <ul>The Deployment Models of the Cloud</ul>
+            <h4>Deployment Models of the Cloud</h4>
+                <ul>
                     <li>Private Cloud</li>
                     <li>Public Cloud</li>
                     <li>Hybrid Cloud</li>
-            
+                </ul>
             </div>
         </div>
     )

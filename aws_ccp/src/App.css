@@ -142,6 +142,17 @@ h4 {
   align-items:center;
 }
 
+li {
+  color: var(--primary-white);
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+ul {
+  list-style-type: square;
+}
+
 .main {
   padding: 2rem;
 }
